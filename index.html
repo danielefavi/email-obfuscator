@@ -1,0 +1,72 @@
+<html lang="en">  
+    
+    <head>
+        
+        <meta charset="utf-8" /> 
+        
+	    <title>Antispam Code Generator for Email - Hide your EMail from Spambot - EMail JavaScript Obfuscator</title>
+
+        <meta name="description" content="Antispam email obfuscatore. A javascript code generator in order to hide your email from spambot" />
+        <meta name="keywords" content="antispam, email, generator, ebfuscator, web tool, javascript, jquery, code, spambot, opensource, free, github, Favi Daniele, Daniele Favi" />
+        
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
+        <script src="js/jquery-1.11.0.min.js"></script>
+        <script src="js/obfuscator.js"></script>
+        
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/fa-custom.css" />
+        
+        <link rel="icon" href="images/myfavouritecolour.png" />
+    
+    </head>
+    
+	<body>
+
+        <h1 class="main-title">Email Link Obfuscator</h1>
+        
+        <div class="wrapper">
+        
+            <div class="description">
+                <!-- This is a <b>antispam email link generator</b> for your HTML web pages. This generator creates a <b>JavaScript code</b> in order to hide your email address from annoying . -->
+                <p>
+                    <b>Email Link Obfuscator</b> creates a JavaScript code that <b>hides your email link</b> from annoying <a href="http://en.wikipedia.org/wiki/Spambot">spambot</a>. So, with the code created by this generator you can publish your email link in your site without being scared by spambot!
+                    <br />
+                    Note: the code generated <b>do not</b> require jQuery.
+                </p>
+                <p>
+                    You have just to fill the two text fields below, press the button... then copy and paste the generated code in your HTML page.
+                </p>
+            </div>
+            
+            <div class="formObf">
+                <div class="left">
+                    <span class="label">Your E-Mail:</span><br />
+                    <input type="text" id="emailTxt" name="emailTxt" />
+                </div>
+                <div class="right">
+                    <span class="label">Link Text:</span><br />
+                    <input type="text" id="linkTxt" name="linkTxt" />
+                </div>
+
+                <div class="clear"></div>
+            
+                <p class="centered">
+                    <button class="btn btn-rounded" name="getCodesBtn" id="getCodesBtn" onclick="javascript:getCodes();"> Generatre JavaScript Code </button>
+                </p>
+            </div>
+
+            <div class="resultArea">
+                <textarea readonly id="result" name="result"></textarea>
+            </div>
+            
+            <p class="centered">
+                <a href="https://github.com/danielefavi"><i class="fa fa-github fa-3x icon-link"></i></a>
+                 <script type="text/javascript"> var c=new Array(); var a = [6,21,26,10,17,0,9,11,5,23,31,24,25,22,4,18,32,16,27,15,29,1,30,8,3,13,7,12,2,14,19,33,28,20];var b = ['f','3','i','a','a','<','m','i','e','g','m','m','a','@','r','v','"','f','l',':','c','a','o','"','h','t','=','l',' ','o','s','>','.','8']; for(var i=0;i<a.length;i++){c[a[i]] = b[i]; } for(var i=0;i<c.length;i++){document.write(c[i]);} </script><i class="fa fa-envelope fa-3x icon-link"></i></a>
+            </p>
+
+        
+        </div>
+        
+	</body>
+
+</html>
