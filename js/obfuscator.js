@@ -1,7 +1,7 @@
 /*
     Antispam EMail Code Generator
     Developed by Daniele Favi
-    Contact: favs83@gmail.com
+    Contact: info@danielefavi.com
 */
 
 
